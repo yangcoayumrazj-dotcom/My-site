@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <h1>My First Website</h1>
+  <p>Hi, I'm Ayu and I'm learning web development.</p>
+
+  <h2>About Me</h2>
+  <p>I'm a student building websites for small businesses.</p>
+  <h2>What I can build</h2>
+  <ul>
+    <li>One page websites</li>
+    <li>Portfolio site for freelancers</li>
+    <li>Restaurant menu pages</li>
+  </ul>
+
+  <a href="mailto:yourname@email.com">Contact me</a>
+
+</body>
+</html>
+
+<head>
+  <title>Ayu's Web Studio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #5C0C0C;
+    }
+    h2 {
+      color: #4F0F0F;
+    }
+    a {
+      background-color: #6B1A1A;
+      color: white;
+      padding: 10px 16px;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+
+<html>
+<head>
+  <title>Ayu's Web Studio</title>
+  <style>
+    body {
+      background-color: #FFF7E5;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+<button id="greetBtn">Click me</button>
+<p id="message"></p>
+
+  
+    <script>
+  const button = document.getElementById("greetBtn");
+  const message = document.getElementById("message");
+
+  button.addEventListener("click", function () {
+    message.textContent = "Welcome! Let's build your website.";
+  });
+</script>
+</body>
+</html>
